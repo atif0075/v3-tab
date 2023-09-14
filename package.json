@@ -1,6 +1,6 @@
 {
-  "name": "v3-tabs",
-  "version": "1.0.0",
+  "name": "v3-tab",
+  "version": "1.0.1",
   "description": "A Vue 3 tabs component",
   "main": "./dist/v3-tab.umd.js",
   "module": "./dist/v3-tab.es.js",
@@ -11,6 +11,11 @@
       "require": "./dist/v3-tab.umd.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atif0075/v3-tab"
+  },
+  "homepage": "https://github.com/atif0075/v3-tab",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
