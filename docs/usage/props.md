@@ -66,6 +66,16 @@ import Tab3 from "./Tab3.vue";
 
 The `slotMode` prop is a boolean that determines whether or not the content of the tabs should be rendered as Vue slots. If set to `true`, you can pass in a Vue slot as the content of the tabs. The default value is `false`.
 
+```vue
+<template>
+  <v3-tab :tabHead="['Tab One', 'Tab2', 'Tab Three']" :slotMode="true">
+    <template #Tab_One> This is tab one </template>
+    <template #Tab2> This is tab two </template>
+    <template #Tab_Three> This is tab three </template>
+  </v3-tab>
+</template>
+```
+
 ## `rememberTab` <Badge text="optional" type="tip"/>
 
 The `rememberTab` prop is a boolean that determines whether or not the selected tab should be remembered on page reload. If set to `true`, the selected tab will be remembered. If set to `false`, the selected tab will not be remembered. The default value is `false`.

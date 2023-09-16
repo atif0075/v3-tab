@@ -17,12 +17,18 @@ hero:
       external: true
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Simple as 1, 2, 3
+    details: The v3-tab component is so simple that you can create a tabbed interface with just three lines of code.
+    link: /guide/installation#installation
+    linkText: See Installation
+  - title: Fully Unstyled
+    details: The v3-tab component is fully unstyled so you can create your own design. However, some example styles are provided to get you started.
+    link: /usage/styles
+    linkText: See Style Guide
+  - title: Reusable and Clean
+    details: The v3-tab component is reusable and clean. You can achieve a lot with just a few lines of code.
+    link: /guide/installation
+    linkText: Get Started
 ---
 
 <style>
