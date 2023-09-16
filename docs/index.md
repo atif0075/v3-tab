@@ -6,14 +6,15 @@ hero:
   name: V3-Tab
   text: A Vue 3 Tab Component
   tagline: A Vue 3 Tab Component with a simple API and built on top of <span class='headless'>Headless UI</span>
-  image: "./public/v3-tabs.svg"
+  image: "./assets/v3-tabs.svg"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guide/installation
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/atif0075/v3-tab
+      external: true
 
 features:
   - title: Feature A
