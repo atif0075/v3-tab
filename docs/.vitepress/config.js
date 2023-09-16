@@ -34,10 +34,6 @@ export default defineConfig({
             text: "Props",
             link: "/usage/props",
           },
-          {
-            text: "Events",
-            link: "/usage/events",
-          },
         ],
       },
       {
