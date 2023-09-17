@@ -5,12 +5,9 @@ You can use the `v3-tab` component globally in your Vue 3 application like this:
 ```js
 import { createApp } from "vue";
 import App from "./App.vue";
-import v3Tab from "v3-tab";
-
+import v3Tab from "v3-tab"; // [!code ++]
 const app = createApp(App);
-
-app.use(v3Tab);
-
+app.use(v3Tab); // [!code ++]
 app.mount("#app");
 ```
 
