@@ -6,6 +6,7 @@ import v3Tab from "../../src/components/v3-tab.vue";
   <v3Tab
     :tabHead="['Tab 1', 'Tab 2', 'Tab 3']"
     :tabData="['Tab 1', 'Tab 2', 'Tab 3']"
+    :rememberTab="true"
   />
 </template>
 <style>
@@ -15,6 +16,7 @@ button {
   border: none;
   background: none;
   cursor: pointer;
+  outline: none;
 }
 
 :root {
@@ -47,6 +49,7 @@ button {
   font-size: 1rem;
   border-radius: 0.3125rem;
   line-height: 1.25rem;
+  outline: none;
 }
 .dark .tabListButton {
   color: var(--dark-text-zinc-200);
@@ -56,10 +59,12 @@ button {
 .tabListButtonSelected {
   background-color: #aee4fd;
   color: #0b74dd;
+  outline: none;
 }
 .dark .tabListButtonSelected {
   background-color: var(--dark-border-zinc-700);
   color: #aee4fd;
+  outline: none;
 }
 
 /* .tabListButtonUnSelected */

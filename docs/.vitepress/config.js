@@ -41,7 +41,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Basic", link: "/examples/basic" },
-          { text: "Customization", link: "/examples/customization" },
           { text: "Remember Tab", link: "/examples/remember-tab" },
           { text: "Component Mode", link: "/examples/component-mode" },
           { text: "Slot Mode", link: "/examples/slot-mode" },
