@@ -4,7 +4,7 @@ import slotMode from "../code/slotMode.vue"
 
 # Slot Mode
 
-This is a basic example of how to use the `v3-tab` component. It is a simple tabbed interface with three tabs. The first tab is selected by default. You can switch between tabs by clicking on the tab buttons.
+This is example of using slot to insert content into tab content. You can use it to insert any content into tab content using slots.
 
 <slotMode />
 

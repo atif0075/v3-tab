@@ -5,7 +5,7 @@ import componentMode from "../code/componentMode.vue"
 
 # Component Mode
 
-This is a basic example of how to use the `v3-tab` component. It is a simple tabbed interface with three tabs. The first tab is selected by default. You can switch between tabs by clicking on the tab buttons.
+This is the component mode of the tabs. It is the most flexible mode. You can use it to create any kind of tabbed interface. You can use it to create a tabbed interface for a form, a tabbed interface for a wizard, or a tabbed interface for a settings page.
 
 <componentMode />
 

@@ -12,19 +12,19 @@ This package requires Vue 3.0 or later. Also you need to install [Headless UI](h
 
 ::: code-group
 
-```npm
+```bash[npm]
 npm install v3-tab @headlessui/vue
 ```
 
-```yarn
+```bash[yarn]
 yarn add v3-tab @headlessui/vue
 ```
 
-```pnpm
+```bash[pnpm]
 pnpm add v3-tab @headlessui/vue
 ```
 
-```bun
+```bash[bun]
 bun add v3-tab @headlessui/vue
 ```
 
@@ -36,19 +36,19 @@ This guide will walk you through the installation of the `v3-tab` package.
 
 ::: code-group
 
-```npm
+```bash[npm]
 npm install v3-tab
 ```
 
-```yarn
+```bash[yarn]
 yarn add v3-tab
 ```
 
-```pnpm
+```bash[pnpm]
 pnpm add v3-tab
 ```
 
-```bun
+```bash[bun]
 bun add v3-tab
 ```
 

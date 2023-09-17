@@ -2,9 +2,11 @@
 import insertHTML from "../code/insertHTML.vue"
 </script>
 
-# Remember Tab
+# Insert HTML
 
-This is a basic example of how to use the `v3-tab` component. It is a simple tabbed interface with three tabs. The first tab is selected by default. You can switch between tabs by clicking on the tab buttons.
+This is example of inserting HTML into tab content. You can use it to insert any HTML content into tab content.
+
+
 
 <insertHTML />
 
