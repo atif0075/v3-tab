@@ -12,8 +12,7 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        sizes: "180x180",
-        href: "../assets/v3-tabs.svg",
+        href: "https://raw.githubusercontent.com/atif0075/v3-tab/eba4043e51e372e966076e9ae400f0d4b74477de/docs/assets/v3-tabs.svg",
       },
     ],
   ],
