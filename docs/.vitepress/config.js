@@ -13,7 +13,7 @@ export default defineConfig({
       {
         rel: "icon",
         sizes: "180x180",
-        href: "/assets/v3-tabs.svg",
+        href: "../assets/v3-tabs.svg",
       },
     ],
   ],
