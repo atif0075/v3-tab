@@ -7,6 +7,16 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        sizes: "180x180",
+        href: "/assets/v3-tabs.svg",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
