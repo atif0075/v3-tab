@@ -5,7 +5,7 @@ layout: home
 hero:
   name: V3-Tab
   text: A Vue 3 Tab Component
-  tagline: A Vue 3 Tab Component with a simple API and built on top of <span class='headless'>Headless UI</span>
+  tagline: A Vue 3 tab component with a powerful and intuitive API, built from scratch for <span class='scratch'>speed and performance</span>
   image: https://raw.githubusercontent.com/atif0075/v3-tab/eba4043e51e372e966076e9ae400f0d4b74477de/docs/assets/v3-tabs.svg
   actions:
     - theme: brand
@@ -51,7 +51,7 @@ features:
     --vp-home-hero-image-filter: blur(72px);
   }
 }
-.headless{
+.scratch{
      background:  -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
     -webkit-background-clip: text;
     background-clip: text;

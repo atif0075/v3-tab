@@ -18,4 +18,4 @@ import v3Tab from "v3-tab";
 </style>
 ```
 
-This will render a tabbed interface with three tabs. The first tab will be selected by default. As you can see, there is nothing too fancy here. The `v3-tab` component is just a wrapper around the `v3-tab-group` and `v3-tab-panel` components from [Headless UI](https://headlessui.dev/) in order to provide a simple API for creating tabbed interfaces.
+This will render a tabbed interface with three tabs. The first tab will be selected by default. As you can see, there is nothing too fancy here. The `v3-tab` component is so simple that you can create a tabbed interface with just three lines of code.
