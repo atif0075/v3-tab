@@ -1,9 +1,4 @@
 import { defineConfig } from "vitepress";
-// import { SitemapStream } from "sitemap";
-// import { createWriteStream } from "fs";
-// import { resolve } from "path";
-// let links = [];
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "V3-Tab",
   description: "A Vue 3 Tab Component",
@@ -138,23 +133,4 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/atif0075/v3-tab" },
     ],
   },
-
-  // transformHtml: (_, id, { pageData }) => {
-  //   if (!/[\\/]404\.html$/.test(id))
-  //     links.push({
-  //       // you might need to change this if not using clean urls mode
-  //       url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, "$2"),
-  //       lastmod: pageData.lastUpdated,
-  //     });
-  // },
-  // buildEnd: ({ outDir }) => {
-  //   // you need to change hostname to your domain
-  //   const sitemap = new SitemapStream({
-  //     hostname: "https://v3-tab.vercel.app/",
-  //   });
-  //   const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
-  //   sitemap.pipe(writeStream);
-  //   links.forEach((link) => sitemap.write(link));
-  //   sitemap.end();
-  // },
 });
