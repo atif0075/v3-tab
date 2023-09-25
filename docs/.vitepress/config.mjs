@@ -1,7 +1,8 @@
 import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "V3-Tab",
-  description: "A Vue 3 Tab Component",
+  description:
+    "A Vue 3 Tab Component, with multiple modes, props, slots, and more. A simple, easy to use, and customizable tab component for Vue 3.",
   markdown: {
     lineNumbers: true,
   },
