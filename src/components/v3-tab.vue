@@ -33,7 +33,6 @@ const props = defineProps({
 
 const selectedTab = ref(props.selectedTab);
 function changeTab(index) {
-  console.log("changeTab", index);
   selectedTab.value = index;
   // add query param to url to remember tab on refresh
   if (props.rememberTab) {
